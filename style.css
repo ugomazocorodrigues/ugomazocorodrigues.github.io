@@ -1,0 +1,194 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #F3F3F3;
+  position: relative;
+  padding: 0;
+  margin: 0px;
+}
+
+#container {
+  height: 100vh;
+  display: grid;
+  padding: 0;
+  /* grid-template-rows:1fr 5fr 80px; */
+}
+
+#topo {
+  align-items: center;
+  background: #ffffff; 
+  display: flex;
+  flex-direction: column;
+  height: 90px;
+  justify-content: center;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+}
+
+.subtitulo {
+  padding-left: 10px;
+}
+
+#identificacao {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.perfil{
+  height: 80px;
+  border-radius: 50%;
+  border: 50px #FF9922;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.info {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.blocos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  overflow-x: auto;
+}
+
+.bloco {
+  display: flex;
+  background: #ffffff;
+  height: 100px;
+  width: 150px;
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-radius: 5px;
+  box-shadow: 1px 15px 15px black;
+}
+
+.adicionarPet{
+  display: flex;
+  flex: row;
+  margin-left: 10px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.botaoMais{
+  width: 40px;
+}
+
+#novoPet{
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+#identificacao2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.imgloc{
+  height: 60px;
+  border-radius: 50%;
+  border: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+#nomeloc {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+#locatual {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 300px;
+  align-content: center;
+}
+
+#meio {
+  margin-left: center;
+}
+
+#btnaudio {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+#som {
+  width: 200px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.icones {
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.icone {
+  width: 30%;
+  height: 30%;
+}
+
+.tres {
+  width: 300px;
+}
+
+#meioo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 20px;
+}
+
+.alarmes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  overflow-x: auto;
+}
+
+.alarme {
+  display: flex;
+  background: #ffffff;
+  height: 100px;
+  width: 300px;
+  margin: 15px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-radius: 5px;
+  box-shadow: 1px 15px 15px black;
+}
