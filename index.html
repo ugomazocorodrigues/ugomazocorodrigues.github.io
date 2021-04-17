@@ -7,6 +7,12 @@
   <title>COLE</title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+  <link rel="stylesheet" href="./fontawesome/css/all.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
   <script src='main.js'></script>
 </head>
 
@@ -23,68 +29,212 @@
 
     </header>
 
+    <!-- HOME -->
+
     <div>
 
       <h2 class="subtitulo">HOME</h2>
 
     </div>
-    <div id="identificacao">
 
-      <div id="foto">
+    <div class="accordion espaco" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            <img class="perfil" src="img/victorio.png" alt="foto de perfil">
+            <div class="info">
+              <div class="nome-pet">
+                Doguinho
+              </div>
+              <div>
+                9 meses
+              </div>
+            </div>
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <section class="blocos">
 
-        <img class="perfil" src="img/victorio.png" alt="foto de perfil">
+              <div class="card bloco" style="width: 18rem;">
+                <div class="card-body">
+                  <div class="bloco-titulo">
+                    <img src="ico/icone_a.svg" alt="Nome" class="bloco-icone">
+                    <h5 class="card-title">Nome
+                    </h5>
+                  </div>
+                  <p class="card-text">Dogguinho
+                  </p>
+                </div>
+              </div>
 
+              <div class="card bloco" style="width: 18rem;">
+                <div class="card-body">
+                  <div class="bloco-titulo">
+                    <img src="ico/icone_bateria.svg" alt="Nome" class="bloco-icone">
+                    <h5 class="card-title">Bateria
+                    </h5>
+                  </div>
+                  <p class="card-text">80%
+                  </p>
+                </div>
+              </div>
+
+              <div class="card bloco" style="width: 18rem;">
+                <div class="card-body">
+                  <div class="bloco-titulo">
+                    <img src="ico/icone_wifi.svg" alt="Nome" class="bloco-icone">
+                    <h5 class="card-title">Conectar Coleira
+                    </h5>
+                  </div>
+                  <p class="card-text">Conectada
+                  </p>
+                </div>
+              </div>
+
+            </section>
+          </div>
+        </div>
       </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <img class="perfil" src="img/victorio.png" alt="foto de perfil">
+            <div class="info">
+              <div class="nome-pet">
+                Tutu
+              </div>
+              <div>
+                4 anos
+              </div>
+            </div>
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <section class="blocos">
 
-      <div id="info">
+              <div class="card bloco" style="width: 18rem;">
+                <div class="card-body">
+                  <div class="bloco-titulo">
+                    <img src="ico/icone_a.svg" alt="Nome" class="bloco-icone">
+                    <h5 class="card-title">Nome
+                    </h5>
+                  </div>
+                  <p class="card-text">Dogguinho
+                  </p>
+                </div>
+              </div>
 
-        <span>Doguinho</span>
-        <span>9 meses</span>
+              <div class="card bloco" style="width: 18rem;">
+                <div class="card-body">
+                  <div class="bloco-titulo">
+                    <img src="ico/icone_bateria.svg" alt="Nome" class="bloco-icone">
+                    <h5 class="card-title">Bateria
+                    </h5>
+                  </div>
+                  <p class="card-text">80%
+                  </p>
+                </div>
+              </div>
 
+              <div class="card bloco" style="width: 18rem;">
+                <div class="card-body">
+                  <div class="bloco-titulo">
+                    <img src="ico/icone_wifi.svg" alt="Nome" class="bloco-icone">
+                    <h5 class="card-title">Conectar Coleira
+                    </h5>
+                  </div>
+                  <p class="card-text">Conectada
+                  </p>
+                </div>
+              </div>
+
+            </section>
+          </div>
+        </div>
       </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <img class="perfil" src="img/victorio.png" alt="foto de perfil">
+            <div class="info">
+              <div class="nome-pet">
+                Paçoca
+              </div>
+              <div>
+                5 meses
+              </div>
+            </div>
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <section class="blocos">
 
+              <div class="card bloco" style="width: 18rem;">
+                <div class="card-body">
+                  <div class="bloco-titulo">
+                    <img src="ico/icone_a.svg" alt="Nome" class="bloco-icone">
+                    <h5 class="card-title">Nome
+                    </h5>
+                  </div>
+                  <p class="card-text">Dogguinho
+                  </p>
+                </div>
+              </div>
+
+              <div class="card bloco" style="width: 18rem;">
+                <div class="card-body">
+                  <div class="bloco-titulo">
+                    <img src="ico/icone_bateria.svg" alt="Nome" class="bloco-icone">
+                    <h5 class="card-title">Bateria
+                    </h5>
+                  </div>
+                  <p class="card-text">80%
+                  </p>
+                </div>
+              </div>
+
+              <div class="card bloco" style="width: 18rem;">
+                <div class="card-body">
+                  <div class="bloco-titulo">
+                    <img src="ico/icone_wifi.svg" alt="Nome" class="bloco-icone">
+                    <h5 class="card-title">Conectar Coleira
+                    </h5>
+                  </div>
+                  <p class="card-text">Conectada
+                  </p>
+                </div>
+              </div>
+
+            </section>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <section class="blocos">
 
-      <div class="bloco">
-        <div>
-
-        </div>
-        <div>
-
-        </div>
-
-      </div>
-      <div class="bloco">
-        <div>
-
-        </div>
-        <div>
-
-        </div>
-
-      </div>
-      <div class="bloco">
-        <div>
-
-        </div>
-        <div>
-
-        </div>
-
-      </div>
-
-    </section>
 
     <div class="adicionarPet">
       <div>
         <img class="botaoMais" src="img/botaoMais.png" alt="adicionar um pet">
       </div>
+      <div>
+        <i class="fas fa-user"></i>
+      </div>
       <div id="novoPet">
         <span>NOVO PET</span>
       </div>
     </div>
+
+    <!-- LOCALIZAÇÃO -->
 
     <h2 class="subtitulo">LOCALIZAÇÃO</h2>
 
@@ -94,62 +244,171 @@
 
     </div>
 
-    <div id="identificacao2">
+    <div class="accordion espaco" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            <img class="perfil" src="img/victorio.png" alt="foto de perfil">
+            <div class="info">
+              <div class="nome-pet">
+                Doguinho
+              </div>
+              <div>
+                9 meses
+              </div>
+            </div>
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <section class="blocos">
 
-      <div>
+              <div class="card bloco" style="width: 18rem;">
+                <div class="card-body">
+                  <div class="bloco-titulo">
+                    <img src="ico/icone_casa.svg" alt="Nome" class="bloco-icone">
+                    <h5 class="card-title">Casa
+                    </h5>
+                  </div>
+                  <p class="card-text">Rua Westview, 1075
+                  </p>
+                  <p class="card-text">Não está em casa
+                  </p>
+                </div>
+              </div>
 
-        <img class="imgloc" src="img/victorio.png" alt="foto de perfil">
-
+              <div class="card bloco" style="width: 18rem;">
+                <div class="card-body">
+                  <div class="bloco-titulo">
+                    <img src="ico/icone_localizacao.svg" alt="Nome" class="bloco-icone">
+                    <h5 class="card-title">Localização
+                    </h5>
+                  </div>
+                  <p class="card-text">80%
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
       </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <img class="perfil" src="img/victorio.png" alt="foto de perfil">
+            <div class="info">
+              <div class="nome-pet">
+                Tutu
+              </div>
+              <div>
+                4 anos
+              </div>
+            </div>
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <section class="blocos">
 
-      <div id="nomeloc">
+              <div class="card bloco" style="width: 18rem;">
+                <div class="card-body">
+                  <div class="bloco-titulo">
+                    <img src="ico/icone_casa.svg" alt="Nome" class="bloco-icone">
+                    <h5 class="card-title">Casa
+                    </h5>
+                  </div>
+                  <p class="card-text">Rua Westview, 1075
+                  </p>
+                  <p class="card-text">Não está em casa
+                  </p>
+                </div>
+              </div>
 
-        <span>Doguinho</span>
-
+              <div class="card bloco" style="width: 18rem;">
+                <div class="card-body">
+                  <div class="bloco-titulo">
+                    <img src="ico/icone_localizacao.svg" alt="Nome" class="bloco-icone">
+                    <h5 class="card-title">Localização
+                    </h5>
+                  </div>
+                  <p class="card-text">80%
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
       </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <img class="perfil" src="img/victorio.png" alt="foto de perfil">
+            <div class="info">
+              <div class="nome-pet">
+                Paçoca
+              </div>
+              <div>
+                5 meses
+              </div>
+            </div>
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <section class="blocos">
 
+              <div class="card bloco" style="width: 18rem;">
+                <div class="card-body">
+                  <div class="bloco-titulo">
+                    <img src="ico/icone_casa.svg" alt="Nome" class="bloco-icone">
+                    <h5 class="card-title">Casa
+                    </h5>
+                  </div>
+                  <p class="card-text">Rua Westview, 1075
+                  </p>
+                  <p class="card-text">Não está em casa
+                  </p>
+                </div>
+              </div>
+
+              <div class="card bloco" style="width: 18rem;">
+                <div class="card-body">
+                  <div class="bloco-titulo">
+                    <img src="ico/icone_localizacao.svg" alt="Nome" class="bloco-icone">
+                    <h5 class="card-title">Localização
+                    </h5>
+                  </div>
+                  <p class="card-text">80%
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div id="locatual">
-      <span id="meio">
-        Rua da Praça Meneguel, 959, São Paulo SP, Brasil
-      </span>
-    </div>
-    <section class="blocos">
-      <div class="bloco">
-        <div>
+  </div>
 
-        </div>
-        <div>
+  <div class="btn-repsom">
+    <a class="btn-repsom2" href="">Reproduir Som</a>
+  </div>
 
-        </div>
+  <div>
 
-      </div>
-      <div class="bloco">
-        <div>
+    <h2 class="subtitulo">ALARMES</h2>
 
-        </div>
-        <div>
+  </div>
 
-        </div>
+  <!-- botoes e icones para navegar no alarme -->
 
-      </div>
-
-    </section>
-
-    <div id="btnaudio">
-      <img id="som" src="img/botaoSom.png" alt="reproduir som">
-    </div>
-
-    <div>
-
-      <h2 class="subtitulo">ALARMES</h2>
-
-    </div>
-
-    <!-- botoes e icones para navegar no alarme -->
-
-    <!-- <div class="icones">
+  <!-- <div class="icones">
 
       <img class="icone" src="img/Group 125.png" alt="remédio">
       <img class="icone" src="img/Vector.png" alt="comida">
@@ -157,31 +416,48 @@
 
     </div> -->
 
-    <div id="meioo">
-      <img class="tres" src="img/tres.png" alt="">
+  <div id="meioo">
+    <img class="tres" src="img/tres.png" alt="">
+  </div>
+
+  <section class="blocos">
+
+    <div class="card bloco" style="width: 18rem;">
+      <div class="card-body">
+        <div class="bloco-titulo">
+          <h5 class="card-title">Suplemento vitamínico
+          </h5>
+          <h5 class="card-title horario">15:00
+          </h5>
+        </div>
+        <div class="linha">
+          <p class="card-text">Já deu o remédio?
+          </p>
+          <div class="btn-sim">
+            <a class="btn-sim2" href="">OK</a>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <section class="alarmes">
-      <div class="alarme">
-        <div>
-
+    <div class="card bloco" style="width: 18rem;">
+      <div class="card-body">
+        <div class="bloco-titulo">
+          <h5 class="card-title">Remédio para carrapato
+          </h5>
+          <h5 class="card-title horario">15:00
+          </h5>
         </div>
-        <div>
-
+        <div class="linha">
+          <p class="card-text">Já deu o remédio?
+          </p>
+          <div class="btn-sim">
+            <a class="btn-sim2" href="">OK</a>
+          </div>
         </div>
-
       </div>
-      <div class="alarme">
-        <div>
-
-        </div>
-        <div>
-
-        </div>
-
-      </div>
-
-    </section>
+    </div>
+  </section>
 
 
 
@@ -191,3 +467,11 @@
 </body>
 
 </html>
+
+
+
+
+<!-- FALTA
+
+- EDITAR
+- DELETAR -->
