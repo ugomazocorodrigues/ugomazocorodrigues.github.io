@@ -9,11 +9,11 @@ body {
 	top: 0; 
 	bottom: 0; 
 }
-.row, .col, .page { 
+.line, .col, .page { 
 	overflow: hidden; 
 	position: absolute; 
 }
-.row { 
+.line { 
 	left: 0;
 	right: 0; 
 }
@@ -45,6 +45,7 @@ body {
 .iemobile .page { 
 	bottom: -6px; 
 }
+
 @media screen and (orientation:landscape) { 
 	.iemobile .page { 
 		bottom: 75px; 
@@ -52,30 +53,30 @@ body {
 }
 
  /* Specific pane configuration */
-.header.row { 
+.header.line { 
 	height: 90px;
 	background-color: white;
 }
 
-.body.row { 
+.body.line { 
 	top: 90px; 
 	bottom: 50px;  
 	padding: 1em; 
 	background-color: #F3F3F3;
-	padding-left: 10%;
-	padding-right: 10%;
+	/* padding-left: 5%;
+	padding-right: 5%; */
 }
 
-.footer.row { 
+.footer.line { 
 	height: 70px; 
 	bottom: 0;
 	background-color: white;
 	
 	display: flex;
  	align-items: center;
-  	justify-content: center;
+	justify-content: center;
 
-  	box-shadow: 0px -10px 12px 0px #e6e6e6;
+  box-shadow: 0px -10px 12px 0px #e6e6e6;
 }
 
 .header, .footer { 
