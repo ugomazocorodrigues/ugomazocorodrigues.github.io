@@ -296,21 +296,16 @@ body {
   flex: row;
 }
 
-
-
 .linha{
   display: flex;
   flex-direction: row;
 }
-
-
 
 .div-rodape {
   display:flex;
   justify-content:center;
   align-items:center;
 }
-
 
 .ico-rodape {
   height: auto;
@@ -340,5 +335,3 @@ body {
 iframe{
   height: 300px;
 }
-
-
